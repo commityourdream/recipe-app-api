@@ -1,7 +1,10 @@
 [flake8]
-max-line-length = 119
+
 exclude =
 migrations,
 __pycache__,
 manage.py,
 settings.py
+
+# Set the maximum length that any line (with some exceptions) may be.
+max-line-length = 100
